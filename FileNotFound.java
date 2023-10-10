@@ -7,7 +7,9 @@ public class FileNotFound {
         Scanner sc = new Scanner(System.in);
 
         try {
+            //This Code is for Getting a File Path
             String path = sc.nextLine();
+            //To Open A File 
             File file = new File(path); 
             FileReader fr = new FileReader(file); 
         } catch (Exception e) {
